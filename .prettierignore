@@ -1,0 +1,7 @@
+build
+scripts
+node_modules
+k8s
+docker
+helm
+.github
