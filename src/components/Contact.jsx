@@ -28,7 +28,7 @@ const Contact = () => {
 	const classes = useStyles()
 
 	return (
-		<div className={classes.contact}>
+		<div className={classes.contact} id="Contact">
 			<div className={classes.container}>
 				<PhoneIcon />
 				&nbsp;

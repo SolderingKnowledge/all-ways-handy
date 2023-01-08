@@ -1,6 +1,4 @@
 import Typography from '@mui/material/Typography'
-
-import Container from '@mui/material/Container'
 import { specialties, history } from '../constants'
 import { makeStyles } from '@mui/styles'
 
@@ -21,7 +19,7 @@ const About = () => {
 	const classes = useStyles()
 
 	return (
-		<main className={classes.about}>
+		<main className={classes.about} id="About">
 			<div className={classes.text}>
 				<Typography variant="subtitle1">{specialties}</Typography>
 			</div>

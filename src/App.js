@@ -36,7 +36,7 @@ const App = () => {
 			<List>
 				{navItems.map((item) => (
 					<ListItem key={item} disablePadding>
-						<ListItemButton sx={{ textAlign: 'center' }}>
+						<ListItemButton sx={{ textAlign: 'center' }} href={`#${item}`}>
 							<ListItemText primary={item} />
 						</ListItemButton>
 					</ListItem>
