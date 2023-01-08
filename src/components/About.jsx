@@ -21,7 +21,7 @@ const About = () => {
 	const classes = useStyles()
 
 	return (
-		<div className={classes.about}>
+		<main className={classes.about}>
 			<div className={classes.text}>
 				<Typography variant="subtitle1">{specialties}</Typography>
 			</div>
@@ -30,7 +30,7 @@ const About = () => {
 					{history}
 				</Typography>
 			</div>
-		</div>
+		</main>
 	)
 }
 

@@ -1,10 +1,9 @@
 import React from 'react'
-import Typography from '@mui/material/Typography'
 import PhoneIcon from '@mui/icons-material/Phone'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import EmailIcon from '@mui/icons-material/Email'
 import { makeStyles } from '@mui/styles'
-import { phoneNumber, email, location } from '../constants'
+import { phoneNumber, email, location, rentonAddress } from '../constants'
 
 const useStyles = makeStyles(() => ({
 	contact: {
@@ -17,7 +16,11 @@ const useStyles = makeStyles(() => ({
 		display: 'flex',
 		alignItems: 'center',
 		marginTop: '1rem',
-		marginBottom: '3rem',
+		marginBottom: '1rem',
+	},
+	link: {
+		textDecoration: 'none',
+		color: 'grey',
 	},
 }))
 
@@ -29,17 +32,23 @@ const Contact = () => {
 			<div className={classes.container}>
 				<PhoneIcon />
 				&nbsp;
-				<Typography>{phoneNumber}</Typography>
+				<a href="tel:206-531-6471" className={classes.link}>
+					{phoneNumber}
+				</a>
 			</div>
 			<div className={classes.container}>
 				<LocationOnIcon />
 				&nbsp;
-				<Typography>{location}</Typography>
+				<a href={rentonAddress} className={classes.link}>
+					{location}
+				</a>
 			</div>
 			<div className={classes.container}>
 				<EmailIcon />
 				&nbsp;
-				<Typography>{email}</Typography>
+				<a href={`mailto:${email}`} className={classes.link}>
+					{email}
+				</a>
 			</div>
 		</div>
 	)
