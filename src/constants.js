@@ -15,3 +15,103 @@ export const history =
 
 export const rentonAddress =
 	'https://www.google.com/maps/place/500+Union+Ave+NE,+Renton,+WA+98059/@47.4903308,-122.1656115,17z/data=!3m1!4b1!4m5!3m4!1s0x549067d8c1a7823f:0xa1cd7e4b7fb4f929!8m2!3d47.4903308!4d-122.1634228'
+
+export const slides = [
+	// {
+	// 	title: 'Bathroom',
+	// 	results: [
+	// 		{
+	// 			img: 'https://s3-media0.fl.yelpcdn.com/projectphoto/qdxoeI726xdSXKh02g_fbQ/o.jpg',
+	// 			title: 'Before',
+	// 		},
+	// 		{
+	// 			img: 'https://s3-media0.fl.yelpcdn.com/projectphoto/-BuPto1LSB4dKBJqN1aNtA/o.jpg',
+	// 			title: 'After',
+	// 		},
+	// 	],
+	// },
+	{
+		title: 'Kitchen',
+		results: [
+			{
+				img: 'https://s3-media0.fl.yelpcdn.com/bphoto/bedkle_7kddq5b3ECgAtpw/o.jpg',
+				title: 'Before',
+			},
+			{
+				img: 'https://s3-media0.fl.yelpcdn.com/bphoto/1ntFBTaSWx6m2VuYW0Lc9A/o.jpg',
+				title: 'After',
+			},
+		],
+	},
+	{
+		title: 'Floor',
+		results: [
+			{
+				img: 'https://s3-media0.fl.yelpcdn.com/bphoto/dmh-4GVZikEKC31f_TMOnQ/o.jpg',
+				title: 'Before',
+			},
+			{
+				img: 'https://s3-media0.fl.yelpcdn.com/bphoto/hP0uadJ6aLG0zSc4aGDMzg/o.jpg',
+				title: 'After',
+			},
+		],
+	},
+	// {
+	// 	title: 'Shower',
+	// 	results: [
+	// 		{
+	// 			img: 'https://s3-media0.fl.yelpcdn.com/bphoto/xorIUOlvuOaN5MIreFaAtw/o.jpg',
+	// 			title: 'Before',
+	// 		},
+	// 		{
+	// 			img: 'https://s3-media0.fl.yelpcdn.com/bphoto/a_InCgADBhYGwCn0Q5ofKw/o.jpg',
+	// 			title: 'After',
+	// 		},
+	// 	],
+	// },
+
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/9D6tqS6lFn0gI8MTD1WMSw/o.jpg',
+	// 	title: 'Burger',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/1NnJEUHe6lmovJdMoHHjAg/o.jpg',
+	// 	title: 'Camera',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/sHI3BIYjUaDE8ZAewglbng/o.jpg',
+	// 	title: 'Coffee',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/1vnjZ641F_A2clo7QctHyQ/o.jpg',
+	// 	title: 'Hats',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/a_InCgADBhYGwCn0Q5ofKw/o.jpg',
+	// 	title: 'Honey',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/g-N88g4OCL1r-zgDcNO9bQ/o.jpg',
+	// 	title: 'Basketball',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/sX3KgFH4YkGeUJVE1GPZjA/o.jpg',
+	// 	title: 'Fern',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/9CwbpiTNAWFaAzxe6j_pYg/o.jpg',
+	// 	title: 'Mushrooms',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/xorIUOlvuOaN5MIreFaAtw/o.jpg',
+	// 	title: 'Tomato basil',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/CSZQBSGB74leX9mpiqCK2w/o.jpg',
+	// 	title: 'Sea star',
+	// },
+	// {
+	// 	img: 'https://s3-media0.fl.yelpcdn.com/bphoto/dmh-4GVZikEKC31f_TMOnQ/o.jpg',
+	// 	title: 'Bike',
+	// },
+]

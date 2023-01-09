@@ -15,9 +15,16 @@ import Container from '@mui/material/Container'
 import Images from './components/Images'
 import Contact from './components/Contact'
 import About from './components/About'
+import Slider from './components/Slider'
 import { makeStyles } from '@mui/styles'
 
 const useStyles = makeStyles(() => ({
+	main: {
+		display: 'flex',
+		alignItems: 'center',
+		justifyContent: 'center',
+		flexDirection: 'column',
+	},
 	container: {
 		marginTop: '2rem',
 	},
@@ -47,7 +54,7 @@ const App = () => {
 
 	const container = document.window !== undefined ? () => window().document.body : undefined
 	return (
-		<Box sx={{ display: 'flex' }}>
+		<Box sx={{ display: 'flex' }} className={classes.main}>
 			<CssBaseline />
 			<Navbar toggleDrawer={toggleDrawer} />
 			<Box component="nav">
@@ -73,7 +80,8 @@ const App = () => {
 			<Container className={classes.container}>
 				<Toolbar />
 				<About />
-				<Images />
+				{/* <Images /> */}
+				<Slider />
 				<Contact />
 			</Container>
 		</Box>
